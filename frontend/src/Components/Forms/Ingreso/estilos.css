@@ -1,0 +1,13 @@
+.containerForm {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .containerForm {
+        width: 100%;
+    }
+}

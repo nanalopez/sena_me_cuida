@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tonto</h1>
+<strong>encriptao</strong>
+<h2 id="texto"></h2>
+<strong>desenciptao</strong>
+<h2 id="texto2"></h2>
+</body>
+<script>
+    const valor = ''
+    let texto = document.getElementById('texto')
+
+    let texto2 = document.getElementById('texto2')
+    texto.innerHTML = btoa(valor)
+    texto2.innerHTML = atob(valor)
+    console.log(valor)
+</script>
+</html>

@@ -1,0 +1,227 @@
+/* Estilos generales */
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+/* Estilos de los botones */
+
+.button {
+    min-width: 100px;
+    max-height: 90%;
+    border: none;
+    border-radius: 50px;
+    background: #707070;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button:hover {
+    opacity: 0.8;
+    border: none;
+}
+
+.icono {
+    padding: 4px;
+    font-size: 2.2em;
+}
+
+
+/* Estilos botón con href */
+
+.buttonA {
+    min-width: 5%;
+    max-width: 100%;
+    max-height: 50%;
+    border: none;
+    border-radius: 100px;
+    background: #006164;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+
+.buttonA a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonA:hover {
+    background: #707070;
+    border: none;
+}
+
+.icono {
+    padding: 4px;
+    font-size: 2.2em;
+}
+
+.MuiOutlinedInput-input{
+    border-radius: 10px !important;
+}
+
+/* Estilos Títulos */
+
+.titleIng {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.titleIng h2 {
+    color: #FF6D00;
+    border-bottom: 1px solid #FF6D00;
+   
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.title h2 {
+    color: #FF6D00;
+    border-bottom: 1px solid #FF6D00;
+   
+}
+
+
+/* Estilos Subtítulos */
+
+.subTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    margin: 12px 0;
+}
+
+
+/* Estilos parrafos */
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.text p {
+    width: 90%;
+    color: #707070;
+    font-weight: 500;
+}
+
+
+/* Estilos Input */
+
+.contInput {
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 4px;
+}
+
+.contInput label {
+    font-weight: bold;
+    color: black;
+}
+
+.contInput input {
+    width: 100%;
+    border: none;
+    background:none !important;
+    border-bottom: 2px gray solid;
+    padding: 4px;
+}
+
+.contInput input::placeholder {
+    font-weight: 300;
+    color: #707070;
+}
+
+
+/* Estilos Input Search */
+
+.contSearch {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+}
+
+.contSearch input {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 2px;
+    background: transparent;
+    color: #fff;
+}
+
+.contSearch input::placeholder {
+    color: #fff;
+}
+
+.searchIcon {
+    color: #fff;
+    position: absolute;
+    right: 12px;
+}
+
+
+/* Estilos Input Select */
+
+.contSelect {
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+.contSelect label {
+    font-weight: bold;
+    color: #707070;
+}
+
+.contSelect select {
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    padding: 7px;
+    color: #707070;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+    /* Responsive Inputs */
+    .contInput {
+        width: 100%;
+    }
+    .contSelect {
+        width: 100%;
+    }
+    .titleIng {
+        margin-left: 0px;
+    }
+}

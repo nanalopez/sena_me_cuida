@@ -1,0 +1,43 @@
+.containerForm {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.inputInicio {
+    margin-top: 10%;
+}
+
+.modal-content {
+    border-radius: 50px;
+}
+
+.MuiInputBase-input {
+    color: black!important;
+    border: solid black 1px !important;
+    height: 5px !important;
+    border-radius: 30px !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+.MuiOutlinedInput-root {
+    margin-top: 10px !important;
+    border-radius: 30px !important;
+}
+
+.MuiSelect-selectMenu {
+    min-height: 10px !important;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-title {
+    margin-right: 40px;
+}
+
+.modal-backdrop {
+    z-index: 1050;
+}
