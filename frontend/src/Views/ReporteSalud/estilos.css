@@ -1,0 +1,60 @@
+.containerGeneral {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fondo {
+    background-image: url(./../../Assets/fondo/sena_logo.png);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contCards {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.modal-dialog {
+    max-width: 50%;
+    justify-content: center;
+}
+
+.modal-header {
+    justify-content: center;
+    background-image: url(./../../Assets/fondo/sena_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px;
+    
+
+}
+/* //---------------------------------------------------// */
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+    .modal-dialog {
+        max-width: 90%;
+        margin: 0 auto !important;
+    }
+    .fondo {
+        background-position: center;
+        background-size: 400px;
+    }
+}
